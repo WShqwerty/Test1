@@ -11,18 +11,22 @@ public class Test1 {
         ArrayList<Student> Stus = new ArrayList<Student>();
 
         Student student1 = new Student();
+        Student student2 = new Student();
 
         student1.setId(1);
+        student2.setName("xiao ming");;
 
-        System.out.println(student1.toString());
+        // System.out.println(student1.toString());
 
         Stus.add(student1);
+        Stus.add(student2);
 
         for(Student stu : Stus){
             System.out.println(stu.toString());
         }
 
     }
+    
 
     public static int add(int a, int b) {
         return a+b;
